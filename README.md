@@ -1,4 +1,6 @@
 # MySQL Python Chatbot with GPT-4
+## Here is the demo of how it works : https://drive.google.com/file/d/1EAUUZrihb8hrp0bcURI7yND_u86F-1JS/view?usp=share_link
+
 
 Welcome to the GitHub repository for our tutorial on building a natural language SQL chatbot using GPT-4! This project guides you through the development of a chatbot that can interpret natural language queries, generate SQL queries, and fetch results from a SQL database, all in an intuitive and user-friendly way. It utilizes the power of OpenAI's GPT-4 model, integrated with a Streamlit GUI for an enhanced interaction experience.
 
