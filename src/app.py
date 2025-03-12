@@ -22,6 +22,9 @@ def get_sql_chain(db):
     Conversation History: {chat_history}
     
     Write only the SQL query and nothing else.
+
+    CRITICAL : Don't include ``` in the response.This is most important.
+
     
     Question: {question}
     SQL Query:
@@ -71,6 +74,8 @@ def get_response(user_query: str, db: SQLDatabase, chat_history: list):
     template = """
     You are a data analyst at a company. You are interacting with a user who is asking you questions about the company's database.
     Based on the table schema below, question, sql query, and sql response, write a natural language response.
+    CRITICAL : Don't include ``` in the response.This is most important.
+
     <SCHEMA>{schema}</SCHEMA>
 
     Conversation History: {chat_history}
